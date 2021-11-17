@@ -8,11 +8,19 @@ The above sequence represents the glycemic values from a single individual who d
 
 # Screenshot
 
-<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-using-Markov-Chains/blob/main/screenshot/Medical%20prediction%20on%20diabetes.gif" /></kbd>
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/Medical%20prediction%20on%20diabetes.png" /></kbd>
 
-<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-using-Markov-Chains/blob/main/screenshot/How%20to%201.PNG" /></kbd>
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/Medical%20prediction%20on%20diabetes.gif" /></kbd>
 
-<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-using-Markov-Chains/blob/main/screenshot/How%20to%202.PNG" /></kbd>
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(1).png" /></kbd>
+
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(2).png" /></kbd>
+
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/How%20to%201.png" /></kbd>
+
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/How%20to%202.png" /></kbd>
+
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/info.png" /></kbd>
 
 # References
 
