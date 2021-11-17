@@ -35,7 +35,7 @@ c)	The “Analyze” button is pressed.
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(1).png" /></kbd>
 
-(A) Manually set an upper limit (<kbd>Lu</kbd>) value and a down limit (<kbd>Ld</kbd>) value to establish the range from which the two states are calculated. Optionally this range can be set/extracted based on the maximum and minimum values present in the sequence of glycemic values.
+(A) Manually set an upper limit (<kbd>Lu</kbd>) value and a down limit (<kbd>Ld</kbd>) value to establish the range from which the two states are calculated. Optionally this range can be set/extracted based on the maximum and minimum values present in the sequence of glycemic values. But how are the states calculated in this option? There is the upper limit and the down limit. What the implementation needs is an automated threshold value. To compute the threshold value, the down limit is subtracted from the upper limit, and the result is further divided by the number of states (n = 2, as there are only two states). This last result is added to the down limit value in order to obtain the threshold value in between the two limits. This method is explicitly described in the book entitled <i>Markov chains: from theory to implementation and experimentation</i> (see references).
 
 (B and C) Set a threshold where all values bigger than the threshold will be considered in one state and all values below the threshold will be considered in the other state.
 
