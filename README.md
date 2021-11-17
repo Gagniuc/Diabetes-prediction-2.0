@@ -2,7 +2,7 @@
 The application <kbd>Diabetes prediction prototype</kbd> is an experimental software intended as a method of prediction for <kbd>type II diabetes</kbd>. Examples for this program are related to <kbd>glycemic values</kbd>. Note that these glycemic values are not binding. Other numeric values (integers originating from any type of biochemical data) can also be used in different contexts. However, this application converts a sequence of numbers into a sequence of two states (strings like <kbd>ABABBBBABBBBABBA</kbd>). The sequence of states is then converted into a transition matrix. Transition probabilities are calculated for each element of the transition matrix based on the sequence of states. The transition matrix is further used for a prediction in a Markov chain.
 
 # Software sections
-The program includes the following sections:
+The program includes the following sections/panels/frames:
 
 a)	<kbd>Patient blood sugar for a period of time (days)</kbd>
 Info: the main input of the program.
