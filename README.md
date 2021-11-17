@@ -80,6 +80,8 @@ For the above sequence of blood glucose levels the software shows the results in
 
 Steady state vector at [9] !
 
+Note that the "-" character is just a delimiter between the two probability values, and not the minus sign.
+
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/How%20to%201.png" /></kbd>
 
 These numbers represent predictions (in this case) of the blood sugar level each day in the future. Day 1 is the next day after the last measurement was taken. The steady state vector represents the probability for low or high blood sugar in the distant future (all times).
