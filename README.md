@@ -48,7 +48,7 @@ The main results are presented in various forms. However, those results of major
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/Medical%20prediction%20on%20diabetes.png" /></kbd>
 
-The following sequence of blood glucose levels has been analyzed for illustration:
+The following sequence of blood glucose levels was analyzed for illustration:
 ```
 137,154,126,120,115,102,113,107,107,108,111,109,118,124,114,111,103,117,108,114,104,112,115,109,114,118,118,120,130,126,104
 ```
