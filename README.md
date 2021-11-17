@@ -42,12 +42,31 @@ b)	a threshold is inserted. This threshold represents the expected blood sugar l
 The main results are presented in various forms. However, those results of major interest are shown in the middle of the window and in the lower right:
 
 
+The following sequence of blood glucose levels has been analyzed for illustration:
+```
+137,154,126,120,115,102,113,107,107,108,111,109,118,124,114,111,103,117,108,114,104,112,115,109,114,118,118,120,130,126,104
+```
+For the above sequence of blood glucose levels the software shows the results in an explicit manner, such as: “The threshold glucose level was set at 108 mg/dL (representing the normal level of blood sugar). Elevated levels or low levels of blood sugar are considered according to this threshold (108 mg/dL). Therefore, in the future the patient will have a LOW blood sugar (under 108 mg/dL) about 27.63% of the time, and a HIGH blood sugar (above 108 mg/dL) about 72.37% of the time. Patient's glycemic events indicate the following observations: if the patient has a high blood sugar it returns to a high blood sugar 72.73% of the time, and if it has a low blood sugar it returns to a low blood sugar level 28.57% of the time. If the patient has a HIGH blood sugar it moves to a LOW blood sugar level 27.27% of the time, and if it has a LOW blood sugar it moves to a HIGH blood sugar level 71.43% of the time.”
 
-# Screenshot
+Nevertheless, in the first instance the application shows a series of numbers as follows:
+H[1] = [0.272727272727 - 0.727272727273]
+H[2] = [0.27626918536 - 0.72373081464]
+H[3] = [0.276315184225 - 0.723684815775]
+H[4] = [0.276315781613 - 0.723684218387]
+H[5] = [0.276315789372 - 0.723684210628]
+H[6] = [0.276315789472 - 0.723684210528]
+H[7] = [0.276315789474 - 0.723684210526]
+H[8] = [0.276315789474 - 0.723684210526]
+H[9] = [0.276315789474 - 0.723684210526]
+Steady state vector at [9] !
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/How%20to%201.png" /></kbd>
 
+These numbers represent predictions (in this case) of the blood sugar level each day in the future. Day 1 is the next day after the last measurement was taken. The steady state vector represents the probability for low or high blood sugar in the distant future (all times).
+
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/How%20to%202.png" /></kbd>
+
+The significance of the colors on the above prediction meter is as follows: red indicates diabetes in the near future, orange indicates prediabetes in the near future, yellow indicates normal blood sugar in the near future, and light or dark green color indicates hypoglycemia in the near future.
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/info.png" /></kbd>
 
