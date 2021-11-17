@@ -31,9 +31,9 @@ b)	a threshold is inserted. This threshold represents the expected blood sugar l
 
 c)	The “Analyze” button is pressed.
 
-<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(1).png" /></kbd>
-
 # Meaning of options
+
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(1).png" /></kbd>
 
 (A) Manually set an upper limit (<kbd>Lu</kbd>) value and a down limit (<kbd>Ld</kbd>) value to establish the range from which the two states are calculated. Optionally this range can be set/extracted based on the maximum and minimum values present in the sequence of glycemic values.
 
