@@ -33,6 +33,8 @@ b)	a threshold is inserted. This threshold represents the expected blood sugar l
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(2).png" /></kbd>
 
+(F) <kbd>Lu</kbd> means upper limit, whereas <kbd>Ld</kbd> means down limit.
+
 
 # Results
 The main results are presented in various forms. However, those results of major interest are shown in the middle of the window and in the lower right:
