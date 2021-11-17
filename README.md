@@ -46,14 +46,13 @@ b)	a threshold is inserted. This threshold represents the expected blood sugar l
 # Results
 The main results are presented in various forms. However, those results of major interest are shown in the middle of the window and in the lower right:
 
+<kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/Medical%20prediction%20on%20diabetes.png" /></kbd>
 
 The following sequence of blood glucose levels has been analyzed for illustration:
 ```
 137,154,126,120,115,102,113,107,107,108,111,109,118,124,114,111,103,117,108,114,104,112,115,109,114,118,118,120,130,126,104
 ```
-For the above sequence of blood glucose levels the software shows the results in an explicit manner, such as: “The threshold glucose level was set at 108 mg/dL (representing the normal level of blood sugar). Elevated levels or low levels of blood sugar are considered according to this threshold (108 mg/dL). Therefore, in the future the patient will have a LOW blood sugar (under 108 mg/dL) about 27.63% of the time, and a HIGH blood sugar (above 108 mg/dL) about 72.37% of the time. Patient's glycemic events indicate the following observations: if the patient has a high blood sugar it returns to a high blood sugar 72.73% of the time, and if it has a low blood sugar it returns to a low blood sugar level 28.57% of the time. If the patient has a HIGH blood sugar it moves to a LOW blood sugar level 27.27% of the time, and if it has a LOW blood sugar it moves to a HIGH blood sugar level 71.43% of the time.”
-
-Nevertheless, in the first instance the application shows a series of numbers as follows:
+For the above sequence of blood glucose levels the software shows the results in an explicit manner, such as: <i>The threshold glucose level was set at 108 mg/dL (representing the normal level of blood sugar). Elevated levels or low levels of blood sugar are considered according to this threshold (108 mg/dL). Therefore, in the future the patient will have a LOW blood sugar (under 108 mg/dL) about 27.63% of the time, and a HIGH blood sugar (above 108 mg/dL) about 72.37% of the time. Patient's glycemic events indicate the following observations: if the patient has a high blood sugar it returns to a high blood sugar 72.73% of the time, and if it has a low blood sugar it returns to a low blood sugar level 28.57% of the time. If the patient has a HIGH blood sugar it moves to a LOW blood sugar level 27.27% of the time, and if it has a LOW blood sugar it moves to a HIGH blood sugar level 71.43% of the time.</i> Nevertheless, in the first instance the application shows a series of numbers as follows:
 
 <kbd>H[1] = [0.272727272727 - 0.727272727273]</kbd>
 
