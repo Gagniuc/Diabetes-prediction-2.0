@@ -29,9 +29,13 @@ a)	a series of blood glucose levels (data sets) from the same patient are insert
 
 b)	a threshold is inserted. This threshold represents the expected blood sugar level for a normal individual. In this case, 108 mg/dL has been chosen as the expected blood sugar level for a normal individual. Different situations in clinical practice (or a particular experimental setup) may require a variation of this threshold value.
 
+c)	The “Analyze” button is pressed.
+
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(1).png" /></kbd>
 
-(A)
+# Meaning of options
+
+(A) Manually set an upper limit (<kbd>Lu</kbd>) value and a down limit (<kbd>Ld</kbd>) value to establish the range from which the two states are calculated. Optionally this range can be set/extracted based on the maximum and minimum values present in the sequence of glycemic values.
 
 (B and C) Set a threshold where all values bigger than the threshold will be considered in one state and all values below the threshold will be considered in the other state.
 
