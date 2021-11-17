@@ -31,6 +31,14 @@ b)	a threshold is inserted. This threshold represents the expected blood sugar l
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(1).png" /></kbd>
 
+(A)
+
+(B and C) Set a threshold where all values bigger than the threshold will be considered in one state and all values below the threshold will be considered in the other state.
+
+(D) The sequence of glycemic values separated by a comma delimiter.
+
+(E) The button that executes the computational procedure.
+
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/legend%20(2).png" /></kbd>
 
 (F) <kbd>Lu</kbd> means upper limit, whereas <kbd>Ld</kbd> means down limit.
