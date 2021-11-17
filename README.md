@@ -17,12 +17,16 @@ Info: the main input of the program.
 
 b)	<kbd>Processes k steps</kbd>
 Info: the period of time for which the prediction is made. If the series of blood glucose levels from the input is composed of blood glucose values measured once a day, then the predictions are made on days. If, for instance, the input consists of blood glucose values measured once a week, then the predictions are made on weeks.
+
 c)	<kbd>Step by step</kbd>
 Info: this section aims to present the calculations and the current state (L or H) for each day as an animation shown at different speeds. The purpose of this section is the slow motion observation of the prediction process.
+
 d)	<kbd>Probability values of the last vector</kbd>
 Info: is a graph showing the probabilities for low or high blood sugar in the distant future. The graph shows these probabilities as bars (low in blue and high in red). The y axis represents the probability of these low or  high events and the x axis shows the number of states (bars).
+
 e)	<kbd>Prediction of behavior</kbd>
 Info: is a graph showing the day-by-day probabilities for low or high blood sugar. The y axis represents the probability of low or high glycemic events and the x axis shows the number of days for which the prediction is made.
+
 f)	<kbd>Vector components - probability plot</kbd>
 Info: Both axis represent probability values. The x coordinate of a circle from the graph is represented by the low probability value and the y coordinate of a circle is represented by the high probability value.
 
