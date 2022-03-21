@@ -1,7 +1,9 @@
 # Diabetes prediction prototype
+
 The application <kbd>Diabetes prediction prototype</kbd> is an experimental software intended as a method of prediction for <kbd>type II diabetes</kbd>. Examples for this program are related to <kbd>glycemic values</kbd>. Note that these glycemic values are not binding. Other numeric values (integers originating from any type of biochemical data) can also be used in different contexts. However, this application converts a sequence of numbers into a sequence of two states (strings like <kbd>ABABBBBABBBBABBA</kbd>). The sequence of states is then converted into a transition matrix. Transition probabilities are calculated for each element of the transition matrix based on the sequence of states. The transition matrix is further used for a prediction in a Markov chain.
 
 # Software sections
+
 The program includes the following sections/panels/frames:
 
 a)	<kbd>Patient blood sugar for a period of time (days)</kbd>
@@ -25,6 +27,7 @@ Info: Both axis represent probability values. The x coordinate of a circle from 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/Medical%20prediction%20on%20diabetes.gif" /></kbd>
 
 # How to use
+
 a)	a series of blood glucose levels (data sets) from the same patient are inserted in the input text box. Preferably the measurements should be made at fixed time intervals. For instance, this set of measurements from below belongs to a single patient. The set of measurements is composed of glycemic values taken each morning for a period of 31 days. Other data sets (for specific experiments) may contain two measurements per day (or more). Another approach would be the use of data sets consisting of blood glucose measurements taken each week in an experiment of, for instance, tens of weeks.
 
 b)	a threshold is inserted. This threshold represents the expected blood sugar level for a normal individual. In this case, 108 mg/dL has been chosen as the expected blood sugar level for a normal individual. Different situations in clinical practice (or a particular experimental setup) may require a variation of this threshold value.
@@ -49,6 +52,7 @@ c)	The “Analyze” button is pressed.
 
 
 # Results
+
 The main results are presented in various forms. However, those results of major interest are shown in the middle of the window and in the lower right:
 
 <kbd><img src="https://github.com/Gagniuc/Diabetes-prediction-V2.0/blob/main/screenshot/Medical%20prediction%20on%20diabetes.png" /></kbd>
